@@ -1,0 +1,141 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/heebo-v21-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/heebo-v21-latin-700.woff2') format('woff2');
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #21243d;
+    font-family: 'Heebo', sans-serif;
+}
+
+main {
+    flex-grow: 1;
+    display: block;
+}
+
+img {
+    display: flex;
+    object-fit: cover;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1452px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sitenav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    margin-bottom: 125px;
+}
+
+
+.sitenav__list {
+    display: flex;
+    gap: 33px;
+}
+
+.sitenav__list-item {
+    list-style: none;
+}
+
+.sitenav__list-item-link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    transition: all 0.3s ease;
+    color: #000000;
+}
+
+.work , .blog , .contact{
+    color: #FF6464;
+}
+
+.sitenav__list-item-link:hover{
+    color: #FF6464;
+}
+
+.header__hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__hero-info-title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+.header__hero-info-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 500px;
+    margin-bottom: 38px;
+}
+
+.header__hero-info-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background-color: #FF6464;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.4s ease;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: 2px solid #FF6464;
+}
+
+.header__hero-info-btn:hover{
+    background-color: transparent;
+    color: #FF6464;
+}
+
+.header__logo-img {
+    width: 120px;
+}
