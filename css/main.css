@@ -139,3 +139,105 @@ a {
 .header__logo-img {
     width: 120px;
 }
+
+
+/* MAIN */
+.main-container {
+    width: 1348px;
+    height: 396px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EDF7FA;
+    margin-top: 71px;
+}
+
+.main-header {
+    font-family: 'Hebbo', sans-serif;
+    font-weight: 400;
+    display: flex;
+    margin-left: 150px; 
+    margin-top: 30px;
+    gap: 860px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-header-recent {
+    font-size: 22px;
+    color: #21243D;
+    transition: 0.3s ease;
+}
+
+.main-header-recent:hover {
+    color: orangered;
+    transition: 0.3s;
+}
+
+.main-header-view {
+    font-size: 16px;;
+    margin-top: 7px;
+    color: #00A8CC;
+    transition: 0.3s ease;
+}
+
+.main-header-view:hover {
+    color: orangered;
+    transition: 0.3s;
+}
+
+.main-hero-sections {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 65px;
+}
+
+.main-hero {
+    width: 418px;
+    height: 295px;
+    margin-top: 5px;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 10px 0px #BBE1FA40;
+    border-radius: 5px;
+    margin-left: 148px;
+    background-color: #fff;
+}
+
+.main-hero-making {
+    font-family: 'Hebbo', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38.19px;
+    width: 374px;
+    height: 85px;
+    margin-top: 24px;
+    margin-left: 23px;
+    color: #21243D;
+}
+
+.main-date {
+    display: flex;
+    margin-top: 17px;
+}
+
+.february {
+    margin-left: 23px;
+}
+
+.vector {
+    margin-left: 40px;
+}
+
+.design {
+    margin-left: 32px;
+}
+
+.main-text {
+    width: 368px;
+    height: 117px;
+    margin-top: 11px;
+    margin-left: 23px;
+    font-family: 'Hebbo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
