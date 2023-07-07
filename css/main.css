@@ -325,3 +325,33 @@ a {
     background: gray;
     margin-bottom: 20px;
 }
+
+
+
+/* WORK */
+.hero-work-container {
+    font-family: 'Hebbo', sans-serif;
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-work {
+    width: 156px;
+    height: 69px;
+    margin-left: 145px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.vector-footer5 {
+    width: 890px;
+    height: 1px;
+    margin-top: 5px;
+    margin-left: 146px;
+    border: 1px;
+    background: gray;
+    margin-bottom: 20px;
+}
