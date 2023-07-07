@@ -85,11 +85,13 @@ a {
     color: #000000;
 }
 
-.work , .blog , .contact{
+.work,
+.blog,
+.contact {
     color: #FF6464;
 }
 
-.sitenav__list-item-link:hover{
+.sitenav__list-item-link:hover {
     color: #FF6464;
 }
 
@@ -130,7 +132,7 @@ a {
     border: 2px solid #FF6464;
 }
 
-.header__hero-info-btn:hover{
+.header__hero-info-btn:hover {
     background-color: transparent;
     color: #FF6464;
 }
@@ -154,7 +156,7 @@ a {
     font-family: 'Hebbo', sans-serif;
     font-weight: 400;
     display: flex;
-    margin-left: 150px; 
+    margin-left: 150px;
     margin-top: 30px;
     gap: 860px;
     align-items: center;
@@ -173,7 +175,8 @@ a {
 }
 
 .main-header-view {
-    font-size: 16px;;
+    font-size: 16px;
+    ;
     margin-top: 7px;
     color: #00A8CC;
     transition: 0.3s ease;
@@ -314,7 +317,7 @@ a {
     font-weight: 400;
     line-height: 24px;
     font-size: 16px;
-} 
+}
 
 .vector-footer {
     width: 1040px;
@@ -334,6 +337,7 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
 .hero-blog {
     width: 156px;
     margin-left: 240px;
@@ -388,3 +392,33 @@ a {
     margin-left: 240px;
     border: 1px solid #fff;
 }
+
+/* Footer start */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 54px;
+}
+
+.footer__icons {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 26px;
+}
+
+.footer-icon:hover svg path {
+    fill: #FA5959;
+}
+
+.footer__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+
+/* Footer end */
